@@ -7,14 +7,19 @@ production runs on `3334`
 view logs: `docker-compose logs -f --tail=0`  
 
 ### Dev ###
+Setting it up. Start with following rapid-service-template README  
+Pick your port (see above)  
+Can probably skip step 6  
+edit `node/static/index.html` and `node/static/js/main.js` to include updated development paths  
+
 
 ## Updating Production Instance ##
-Updating Docker instance  
+Updating Docker nginx instance (web1, web2, tydev, alandev)  
 `docker-compose exec proxy /bin/bash`  
 `nginx -s reload`  
 
-Updating system-wide instance  
-`sudo service nginx restart`
+Updating system-wide nginx instance  
+`sudo service nginx reload`
 
 ## See what services... ##
 `service --status-all`
@@ -24,3 +29,5 @@ Updating system-wide instance
 
 ## Preview a file ##
 `cat filename`
+
+`docker-compose ps`
