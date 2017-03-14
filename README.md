@@ -10,7 +10,7 @@ view logs: `docker-compose logs -f --tail=0`
 
 ## Updating Production Instance ##
 Updating Docker instance  
-`docker-compose exec proxy /bin/bash`
+`docker-compose exec proxy /bin/bash`  
 `nginx -s reload`  
 
 Updating system-wide instance  
