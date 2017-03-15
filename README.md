@@ -29,5 +29,18 @@ Updating system-wide nginx instance
 
 ## Preview a file ##
 `cat filename`
-
 `docker-compose ps`
+
+## Ports ##
+ssh = 22  
+http = 80  
+https = 443  
+
+## Cheapest ##
+JSON-formatted data by "offers," timestamped and updated with some frequency  
+
+## Logs ##
+`tail -F` vs `tail -f` vs `tailf`  
+docker-compose logs  
+docker-compose logs -f  
+docker-compose logs -f --tail=0
