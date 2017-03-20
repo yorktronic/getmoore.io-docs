@@ -44,3 +44,15 @@ JSON-formatted data by "offers," timestamped and updated with some frequency
 docker-compose logs  
 docker-compose logs -f  
 docker-compose logs -f --tail=0
+
+## token ##
+`var data = JSON.parse(responseBody);`
+`postman.setEnvironmentVariable("token", data.token);`
+
+## curl ##
+`-v` - verbose?
+get poopy man's auth token: `curl -H "Content-Type: application/json" -X POST -d '{"username":"poopy","password":"man"}' https://getmoore.io/dev/alan/api/login`  
+get poopy man's auth token (via http instead of https): `curl -H "Content-Type: application/json" -X POST -d '{"username":"poopy","password":"man"}' http://localhost:3335/api/login`  
+
+## other ##
+`nc` - netcat  
