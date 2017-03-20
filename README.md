@@ -56,3 +56,9 @@ get poopy man's auth token (via http instead of https): `curl -H "Content-Type: 
 
 ## other ##
 `nc` - netcat  
+
+## mongo shell ##
+`show dbs`  
+`use x`  
+`show collections`  
+
