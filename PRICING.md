@@ -3,6 +3,9 @@
 ## On-Demand ##
 
 ## Spot ##
+
+### Overview ###
+
 Discounted pricing for when AWS' data-center utilization is low. AWS issues pricing 
 offers that are structured similarly to on-demand pricing. As with on-demand, the 
 prices are listed per VM instance type, with identical descriptive information. The 
@@ -15,6 +18,9 @@ once the spot price falls below the user's uper limit. Once the spot price rises
 above the user's upper limit, the instance is terminated.
 
 See [Amazon EC2 Spot Instances Pricing](https://aws.amazon.com/ec2/spot/pricing/) for more information.
+
+### Data Structure ###
+Source: [AWS CLI](https://aws.amazon.com/cli/) [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html)
 
 ## Reserved ##
 
