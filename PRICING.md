@@ -40,8 +40,12 @@ See [Amazon EC2 Spot Instances Pricing](https://aws.amazon.com/ec2/spot/pricing/
 **Source:** Pricing can be found within the AmazonEC2 offer file provided via the 
 [AWS Price List API](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html#download-offers). Example: `https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json` where "AmazonEC2" can be replaced with a 
 variety of AWS services. Since VM's are the focus of Getmoore.io, that is the only 
-pricing we will store / provide.      
-**Format:** JSON or CSV
+pricing we will store / provide.  
+
+Additionally, AWS offeres a [Simple Notification Service (SNS)](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-notification.html) to notify users of 
+updates to the pricing file.  
+
+**Format:** JSON or CSV  
 **Structure:** TBD
 
 # Google Cloud Platform #
