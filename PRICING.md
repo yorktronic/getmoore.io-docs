@@ -21,6 +21,21 @@ See [Amazon EC2 Spot Instances Pricing](https://aws.amazon.com/ec2/spot/pricing/
 
 ### Data Structure ###
 Source: [AWS CLI](https://aws.amazon.com/cli/) [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html)
+Format: JSON  
+Structure:  
+```json
+{
+  "SpotPriceHistory": [
+          {
+              "Timestamp": "2014-01-06T07:10:55.000Z",
+              "ProductDescription": "SUSE Linux",
+              "InstanceType": "m1.xlarge",
+              "SpotPrice": "0.087000",
+              "AvailabilityZone": "us-west-1b"
+          },
+          ...
+}
+```
 
 ## Reserved ##
 
