@@ -33,7 +33,7 @@ Structure:
               "SpotPrice": "0.087000",
               "AvailabilityZone": "us-west-1b"
           }
-}
+]}
 ```
 
 ## Reserved ##
