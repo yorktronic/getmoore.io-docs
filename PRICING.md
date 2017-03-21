@@ -39,6 +39,8 @@ See [Amazon EC2 Spot Instances Pricing](https://aws.amazon.com/ec2/spot/pricing/
 ## Reserved ##
 **Source:** Pricing can be found within the AmazonEC2 offer file provided via the 
 [AWS Price List API](http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/price-changes.html#download-offers)  
+Example: `https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/index.json
+`    
 **Format:** JSON or CSV
 **Structure:** TBD
 
