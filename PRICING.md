@@ -20,9 +20,9 @@ above the user's upper limit, the instance is terminated.
 See [Amazon EC2 Spot Instances Pricing](https://aws.amazon.com/ec2/spot/pricing/) for more information.
 
 ### Data Structure ###
-Source: [AWS CLI](https://aws.amazon.com/cli/) [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html)  
-Format: JSON  
-Structure:  
+**Source:** [AWS CLI](https://aws.amazon.com/cli/) [describe-spot-price-history](http://docs.aws.amazon.com/cli/latest/reference/ec2/describe-spot-price-history.html)  
+**Format:** JSON  
+**Structure:**
 ```json
 {
   "SpotPriceHistory": [
